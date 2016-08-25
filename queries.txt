@@ -1,0 +1,4 @@
+User creation queries
+
+create USER sample identified by sample
+grant connect,resource,dba to sample
