@@ -4,6 +4,14 @@ public class Example {
 
 	public static void main(String[] args) {
 		
+		Stack<Integer> sb = new Stack<Integer>();
+	sb.push(5);
+	sb.push(6);
+	sb.push(4);
+	System.out.println(sb);
+	System.out.println(sb.pop());
+	System.out.println(sb.pop());
+	System.out.println(sb.pop());
 		//int input[]={0,1,1,0,2,1,2,1,0};
 		//System.out.println(input);
 		
